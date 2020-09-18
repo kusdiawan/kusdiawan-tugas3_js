@@ -1,9 +1,9 @@
-function baca(){
-	var nilai = 10;
-	return nilai;
-
+function baca(nilai){
+	console.log ("Nilai " + nilai)
 }
 
-var lihat = baca() + 5;
-console.log(baca());
-console.log(lihat); 
+var nilai = 10;
+nilai = nilai + 5;
+
+baca(nilai);
+ 
